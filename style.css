@@ -57,3 +57,52 @@ button:hover{
     font-size: 30px;
     color: palevioletred;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+}
